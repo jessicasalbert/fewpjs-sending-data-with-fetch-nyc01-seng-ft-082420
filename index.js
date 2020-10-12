@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 // Add your code here
+=======
+>>>>>>> 1a6c939b4c799ee83317c0a6663b0749bebf25da
 function submitData(name, email) {
     let formData = {
         name,
@@ -22,6 +25,7 @@ function submitData(name, email) {
     document.body.innerHTML = `${object.id}`;
     })
     .catch(function(error) {
+<<<<<<< HEAD
         document.body.innerHTML = `${error}`;
       });
     
@@ -33,3 +37,9 @@ function submitData(name, email) {
 
 
 
+=======
+    document.body.innerHTML = `${error}`;
+  });
+    
+}
+>>>>>>> 1a6c939b4c799ee83317c0a6663b0749bebf25da
